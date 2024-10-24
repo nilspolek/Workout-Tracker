@@ -12,3 +12,9 @@ test:
 
 clean:
 	@rm -rf bin
+
+mongo-up:
+	@docker compose up -d mongo
+
+mongo-down:
+	@docker compose down
